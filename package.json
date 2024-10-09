@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/intercom",
-  "version": "6.0.2",
+  "version": "6.0.2-ergon",
   "description": "Enable Intercom features for Capacitor apps",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -80,6 +80,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/capacitor-community/intercom"
+  },
+  "publishConfig": {
+    "registry": "https://npm.ergon.ch"
   },
   "bugs": {
     "url": "https://github.com/capacitor-community/intercom/issues"
